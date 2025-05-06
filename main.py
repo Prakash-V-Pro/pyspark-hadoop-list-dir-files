@@ -29,5 +29,5 @@ if __name__ == "__main__":
         .appName("app_name")\
         .getOrCreate()
     
-    get_dirs_and_files(spark=session, base_folder= "/")
+    get_dir_and_files(spark=session, base_folder= "/")
 
